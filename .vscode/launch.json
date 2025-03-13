@@ -7,19 +7,28 @@
         {
             "name": "coffee_shop_updated",
             "request": "launch",
-            "type": "dart"
+            "type": "dart",
+            "args": [
+                "--verbose"
+            ]
         },
         {
             "name": "coffee_shop_updated (profile mode)",
             "request": "launch",
             "type": "dart",
-            "flutterMode": "profile"
+            "flutterMode": "profile",
+            "args": [
+                "--verbose"
+            ]
         },
         {
             "name": "coffee_shop_updated (release mode)",
             "request": "launch",
             "type": "dart",
-            "flutterMode": "release"
+            "flutterMode": "release",
+            "args": [
+                "--verbose"
+            ]
         }
     ]
 }
